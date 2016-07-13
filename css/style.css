@@ -4,3 +4,24 @@
     font-size: 2em;
     word-spacing: 5px;
 }
+
+.chooseGender {
+    background-image: url(../images/transparent.jpg);
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.gender {
+    padding-right: 400px;
+    padding-left: 30px;
+}
+
+td {
+    border: 5px solid antiquewhite;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
