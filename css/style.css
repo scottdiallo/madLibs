@@ -10,12 +10,34 @@
     color: #fff;
     text-align: center;
     height: 300px;
+    width: 800px;
     padding-top: 100px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+nav {
+    display: inline-flex;
+}
+
+.smileyFace {
+    margin-right: 33.33%;
+}
+
+.logo {
+    margin-left: 33.33%;
+    padding-top: 30px;
 }
 
 .gender {
     padding-right: 400px;
     padding-left: 30px;
+}
+
+.tableContent {
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 td {
@@ -24,4 +46,14 @@ td {
     height: 100px;
     width: 100px;
     text-align: center;
+}
+
+.submit {
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 1.7em;
+    background-color: antiquewhite;
+    font-weight: 800;
 }

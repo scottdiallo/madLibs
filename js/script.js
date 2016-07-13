@@ -10,7 +10,9 @@ $(function () {
         //any gender chosen hide gender box and display gif image appropriate to gender selection
     });
 
-
+    $('.submit').on('click', function () {
+        //alert('hello world!');
+    })
 
 
 
