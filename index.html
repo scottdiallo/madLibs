@@ -9,12 +9,15 @@
 
 </head>
 <nav>
-    <div class="smileyFace">
-        <img src="images/madLibSmileyFace.png" alt=" Smiley Face" />
-    </div>
-    <div class="logo">
-        <img src="images/madLibLogo.png" alt="" />
-    </div>
+    <ul>
+        <li class="smileyFace">
+            <img src="images/madLibSmileyFace.png" alt=" Smiley Face" />
+        </li>
+        <li class="logo">
+            <img src="images/madLibLogo.png" alt="" />
+        </li>
+    </ul>
+
 </nav>
 
 <body ng-app="">
@@ -29,8 +32,8 @@
 
         <table class="wordsTable">
             <tr>
-                <td>Male Name
-                    <input type="text" ng-model="maleName" />
+                <td>Name
+                    <input type="text" ng-model="maleName" autofocus />
                     <!--                    <h4>{{maleName}}</h4>-->
 
                 </td>
@@ -55,10 +58,10 @@
             </tr>
             <tr>
                 <td>Obnoxious celebrity
-                    <input type="text" obnoxiousCelebrity>
+                    <input type="text" ng-model="obnoxiousCelebrity">
                 </td>
                 <td>Huge Number
-                    <input type="text" ng-model="hugeNumber">
+                    <input type="number" ng-model="hugeNumber">
                 </td>
                 <td>Adjective
                     <input type="text" ng-model="adjective">
@@ -70,13 +73,12 @@
     </div>
     <hr>
     <p class="gameForm">
-        <p>{{maleName}} was a {{jobTitle}} who loved technology. Although she loved parts of her job, she absolutely hated {{tediousTask}} and {{dirtyTask}}. So, {{maleName}} met with her life mentor {{celebrity}} who told her to learn how to {{uselessSkill}} with Thinkful. Thinkful didn't offer a course on {{uselessSkill}} so she studied programming instead. </p>
-        <p>What a great decision! With her new skills, {{maleName}} built a(n) {{adjective}} robot named {{obnoxiousCelebrity}} that not only loved {{dirtyTask}} but did it {{hugeNumber}} times faster. </p>
+        <p class="passage"><span>{{maleName}}</span> was a <span>{{jobTitle}}</span> who loved technology. Although she loved parts of her job, she absolutely hated {{tediousTask}} and {{dirtyTask}}. So, {{maleName}} met with her life mentor {{celebrity}} who told her to learn how to <span>{{uselessSkill}}</span> with Thinkful. Thinkful didn't offer a course on <span>{{uselessSkill}}</span> so she studied programming instead. </p>
+        <p class="passage">What a great decision! With her new skills, <span>{{maleName}}</span> built a(n) <span>{{adjective}}</span> robot named <span>{{obnoxiousCelebrity}}</span> that not only loved <span>{{dirtyTask}}</span> but did it <span>{{hugeNumber}}</span> times faster. </p>
 
     </p>
-    <!--    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <!--    <script src="js/script.js"></script>-->
 </body>
 
 </html>

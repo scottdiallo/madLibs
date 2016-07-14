@@ -1,3 +1,7 @@
+body {
+    font-size: 1em;
+}
+
 .gameForm {
     width: 85%;
     margin: 0 auto;
@@ -17,16 +21,24 @@
 }
 
 nav {
-    display: inline-flex;
+    display: inline-block;
+    border: 10px solid #605e5e;
+    background-color: #d34749;
 }
 
-.smileyFace {
-    margin-right: 33.33%;
+nav ul li {
+    display: inline-block;
 }
+
+
+/*
+.smileyFace {
+    margin-right: 40%;
+}
+*/
 
 .logo {
-    margin-left: 33.33%;
-    padding-top: 30px;
+    margin-left: 690px;
 }
 
 .gender {
@@ -38,6 +50,12 @@ nav {
     text-align: center;
     margin-left: 33%;
     margin-right: 33%;
+}
+
+.passage {
+    width: 60%;
+    padding-left: 33.33%;
+    padding-right: 33.33%
 }
 
 td {
@@ -59,11 +77,20 @@ td {
 }
 
 input {
-    color: aqua;
     font-weight: 725;
     color: #b13109;
     font-weight: 725;
     height: 20px;
     font-size: 1em;
     text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+span {
+    color: #d34749;
 }
