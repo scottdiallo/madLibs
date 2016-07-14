@@ -43,8 +43,8 @@ nav {
 td {
     border: 5px solid antiquewhite;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     text-align: center;
 }
 
@@ -56,4 +56,14 @@ td {
     font-size: 1.7em;
     background-color: antiquewhite;
     font-weight: 800;
+}
+
+input {
+    color: aqua;
+    font-weight: 725;
+    color: #b13109;
+    font-weight: 725;
+    height: 20px;
+    font-size: 1em;
+    text-align: center;
 }

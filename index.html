@@ -31,31 +31,47 @@
             <tr>
                 <td>Male Name
                     <input type="text" ng-model="maleName" />
-                    <h4>{{maleName}}</h4>
+                    <!--                    <h4>{{maleName}}</h4>-->
 
                 </td>
 
-                <td>Job Tile</td>
-                <td>Tedious Task</td>
+                <td>Job Tile
+                    <input type="text" ng-model="jobTitle">
+                </td>
+                <td>Tedious Task
+                    <input type="text" ng-model="tediousTask">
+                </td>
             </tr>
             <tr>
-                <td>Dirty Task</td>
-                <td>Celebrity</td>
-                <td>Useless skill</td>
+                <td>Dirty Task
+                    <input type="text" ng-model="dirtyTask">
+                </td>
+                <td>Celebrity
+                    <input type="text" ng-model="celebrity">
+                </td>
+                <td>Useless skill
+                    <input type="text" ng-model="uselessSkill">
+                </td>
             </tr>
             <tr>
-                <td>Obnoxious celebrity</td>
-                <td>Huge Number</td>
-                <td>Adjective</td>
+                <td>Obnoxious celebrity
+                    <input type="text" obnoxiousCelebrity>
+                </td>
+                <td>Huge Number
+                    <input type="text" ng-model="hugeNumber">
+                </td>
+                <td>Adjective
+                    <input type="text" ng-model="adjective">
+                </td>
             </tr>
         </table>
         <button class="submit" type="submit">Submit</button>
 
     </div>
     <hr>
-    <p class="gameForm">{{maleName}} was a {{job title}} who loved technology. Although he loved parts of his job, he absolutely hated {{tedious task}} and {{dirty task}}. So, {{maleName}} met with his life mentor {{celebrity}} who told him to learn how to {{useless skill}} with Scott's. Scott's didn't offer a course on {{useless skill}} so he studied programming instead.
-        <br>
-        <br> What a great decision! With his new skills, {{maleName}} built a(n) {{adjective}} robot named {{obnoxious celebrity}} that not only {{dirty task}} but did it {{huge number}} faster.
+    <p class="gameForm">
+        <p>{{maleName}} was a {{jobTitle}} who loved technology. Although she loved parts of her job, she absolutely hated {{tediousTask}} and {{dirtyTask}}. So, {{maleName}} met with her life mentor {{celebrity}} who told her to learn how to {{uselessSkill}} with Thinkful. Thinkful didn't offer a course on {{uselessSkill}} so she studied programming instead. </p>
+        <p>What a great decision! With her new skills, {{maleName}} built a(n) {{adjective}} robot named {{obnoxiousCelebrity}} that not only loved {{dirtyTask}} but did it {{hugeNumber}} times faster. </p>
 
     </p>
     <!--    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>-->
