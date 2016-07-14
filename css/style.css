@@ -39,6 +39,11 @@ nav ul li {
     margin-left: 50%;
 }
 
+.logo img,
+.smileyFace img {
+    height: 90px;
+}
+
 
 /*
 .gender {
