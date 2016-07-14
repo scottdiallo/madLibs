@@ -14,9 +14,9 @@ body {
     background-image: url(../images/transparent.jpg);
     color: #fff;
     text-align: center;
-    height: 300px;
+    height: 150px;
     width: 800px;
-    padding-top: 100px;
+    padding-top: 22px;
     margin: 0 auto;
     margin-top: 28px;
 }
@@ -35,6 +35,10 @@ nav ul li {
     display: inline-block;
 }
 
+.logo {
+    margin-left: 50%;
+}
+
 
 /*
 .gender {
@@ -45,8 +49,8 @@ nav ul li {
 
 .tableContent {
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .passage {
