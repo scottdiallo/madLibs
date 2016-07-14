@@ -1,5 +1,6 @@
 body {
     font-size: 1em;
+    margin: 0px;
 }
 
 .gameForm {
@@ -21,9 +22,13 @@ body {
 }
 
 nav {
-    display: inline-block;
     border: 10px solid #605e5e;
     background-color: #d34749;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
 }
 
 nav ul li {
@@ -32,37 +37,29 @@ nav ul li {
 
 
 /*
-.smileyFace {
-    margin-right: 40%;
-}
-*/
-
-.logo {
-    margin-left: 690px;
-}
-
 .gender {
     padding-right: 400px;
     padding-left: 30px;
 }
+*/
 
 .tableContent {
     text-align: center;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .passage {
-    width: 60%;
-    padding-left: 33.33%;
-    padding-right: 33.33%
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.5em;
 }
 
 td {
-    border: 5px solid antiquewhite;
+    border: 5px solid #605e5e;
     border-radius: 50%;
-    height: 140px;
-    width: 140px;
+    height: 145px;
+    width: 145px;
     text-align: center;
 }
 
