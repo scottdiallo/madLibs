@@ -42,14 +42,6 @@ nav ul li {
     height: 90px;
 }
 
-
-/*
-.gender {
-    padding-right: 400px;
-    padding-left: 30px;
-}
-*/
-
 .tableContent {
     text-align: center;
     margin-left: 33%;
@@ -60,6 +52,10 @@ nav ul li {
     padding-left: 20%;
     padding-right: 20%;
     font-size: 1.5em;
+}
+
+.name {
+    text-transform: capitalize;
 }
 
 td {
