@@ -36,7 +36,7 @@ nav ul li {
 }
 
 .logo {
-    margin-left: 50%;
+    margin-left: 65%;
 }
 
 .logo img,
@@ -78,8 +78,8 @@ td {
     margin-top: 15px;
     border-radius: 5px;
     font-size: 1.7em;
-    background-color: antiquewhite;
-    font-weight: 800;
+    background-color: #605e5e;
+    color: #fff;
 }
 
 td input {
