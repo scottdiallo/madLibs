@@ -22,9 +22,7 @@ body {
 }
 
 nav {
-    border: 10px solid #605e5e;
-    background-color: #d34749;
-    width: 100%;
+    border: 10px double #605e5e;
 }
 
 nav ul {
