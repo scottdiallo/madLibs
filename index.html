@@ -20,11 +20,15 @@
 </nav>
 
 <body ng-app="">
+
+
+    <!--
     <div class="chooseGender">
         <h1>Choose Gender!</h1>
         <input class="gender" type="radio" name="gender" id="male" value="male">Male
         <input class="gender" type="radio" name="gender" id="female" value="female">Female
     </div>
+-->
     <div class="tableContent">
         <h1>Provide The Following Words:</h1>
         <!--    or create a form with submit button once clicked all input will be filled and added to the passage below-->
@@ -32,46 +36,46 @@
         <table class="wordsTable">
             <tr>
                 <td>Name
-                    <input type="text" autocapitalize="word" ng-model="maleName" autofocus />
+                    <input type="text" autocapitalize="word" ng-model="maleName" ng-init="maleName='Scott '" />
                 </td>
 
                 <td>Job Tile
-                    <input type="text" ng-model="jobTitle">
+                    <input type="text" ng-model="jobTitle" ng-init="jobTitle='Developer'">
                 </td>
                 <td>Tedious Task
-                    <input type="text" ng-model="tediousTask">
+                    <input type="text" ng-model="tediousTask" ng-init="tediousTask='sleeping'">
                 </td>
             </tr>
             <tr>
                 <td>Dirty Task
-                    <input type="text" ng-model="dirtyTask">
+                    <input type="text" ng-model="dirtyTask" ng-init="dirtyTask='eating'">
                 </td>
                 <td>Celebrity
-                    <input type="text" ng-model="celebrity">
+                    <input type="text" ng-model="celebrity" ng-init="celebrity='Steve Jobs'">
                 </td>
                 <td>Useless skill
-                    <input type="text" ng-model="uselessSkill">
+                    <input type="text" ng-model="uselessSkill" ng-init="uselessSkill='watching tv'">
                 </td>
             </tr>
             <tr>
                 <td>Obnoxious celebrity
-                    <input type="text" ng-model="obnoxiousCelebrity">
+                    <input type="text" ng-model="obnoxiousCelebrity" ng-init="obnoxiousCelebrity='Donald Trump'">
                 </td>
                 <td>Huge Number
-                    <input type="number" ng-model="hugeNumber">
+                    <input type="number" ng-model="hugeNumber" ng-init="hugeNumber=1000000000">
                 </td>
                 <td>Adjective
-                    <input type="text" ng-model="adjective">
+                    <input type="text" ng-model="adjective" ng-init="adjective='giant'">
                 </td>
             </tr>
         </table>
-        <button class="submit" type="submit">Submit</button>
+        <!--        <button class="submit" type="submit">Submit</button>-->
 
     </div>
     <hr>
     <p class="gameForm">
-        <p class="passage"><span class="name">{{maleName}}</span> was a <span>{{jobTitle}}</span> who loved technology. Although she loved parts of her job, she absolutely hated <span>{{tediousTask}}</span> and <span>{{dirtyTask}}</span>. So, <span class="name">{{maleName}}</span> met with her life mentor <span>{{celebrity}}</span> who told her to learn how to <span>{{uselessSkill}}</span> with Thinkful. Thinkful didn't offer a course on <span>{{uselessSkill}}</span> so she studied programming instead. </p>
-        <p class="passage">What a great decision! With her new skills, <span class="name">{{maleName}}</span> built a(n) <span>{{adjective}}</span> robot named <span>{{obnoxiousCelebrity}}</span> that not only loved <span>{{dirtyTask}}</span> but did it <span>{{hugeNumber}}</span> times faster. </p>
+        <p class="passage"><span class="name">{{maleName}}</span> was a <span>{{jobTitle}}</span> who loved technology. Although he loved parts of his job, he absolutely hated <span>{{tediousTask}}</span> and <span>{{dirtyTask}}</span>. So, <span class="name">{{maleName}}</span> met with his life mentor <span>{{celebrity}}</span> who told him to learn how to <span>{{uselessSkill}}</span> with Thinkful. Thinkful didn't offer a course on <span>{{uselessSkill}}</span> so he studied programming instead. </p>
+        <p class="passage">What a great decision! With his new skills, <span class="name">{{maleName}}</span> built a(n) <span>{{adjective}}</span> robot named <span>{{obnoxiousCelebrity}}</span> that not only loved <span>{{dirtyTask}}</span> but did it <span>{{hugeNumber}}</span> times faster. </p>
 
     </p>
 
