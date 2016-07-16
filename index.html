@@ -8,30 +8,34 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<nav>
-    <ul>
-        <li class="smileyFace">
-            <img src="images/madLibSmileyFace.png" alt=" Smiley Face" />
-        </li>
-        <li class="logo">
-            <img src="images/madLibLogo.png" alt="" />
-        </li>
-    </ul>
-</nav>
 
-<body ng-app="">
-
+<body ng-app="myApp">
+    <nav>
+        <ul>
+            <li class="smileyFace">
+                <img src="images/madLibSmileyFace.png" alt=" Smiley Face" />
+            </li>
+            <li class="logo">
+                <img src="images/madLibLogo.png" alt="" />
+            </li>
+        </ul>
+    </nav>
 
     <!--
+
     <div class="chooseGender">
         <h1>Choose Gender!</h1>
         <input class="gender" type="radio" name="gender" id="male" value="male">Male
         <input class="gender" type="radio" name="gender" id="female" value="female">Female
     </div>
 -->
-    <div class="tableContent">
+
+
+    <div class="tableContent" ng-controller="myController">
         <h1>Provide The Following Words:</h1>
+
         <!--    or create a form with submit button once clicked all input will be filled and added to the passage below-->
+
 
         <table class="wordsTable">
             <tr>
@@ -54,7 +58,7 @@
                     <input type="text" ng-model="celebrity" ng-init="celebrity='Steve Jobs'">
                 </td>
                 <td>Useless skill
-                    <input type="text" ng-model="uselessSkill" ng-init="uselessSkill='watching tv'">
+                    <input type="text" ng-model="uselessSkill" ng-init="uselessSkill='watch tv'">
                 </td>
             </tr>
             <tr>
@@ -69,17 +73,24 @@
                 </td>
             </tr>
         </table>
+
         <!--        <button class="submit" type="submit">Submit</button>-->
+
 
     </div>
     <hr>
+
+
     <p class="gameForm">
         <p class="passage"><span class="name">{{maleName}}</span> was a <span>{{jobTitle}}</span> who loved technology. Although he loved parts of his job, he absolutely hated <span>{{tediousTask}}</span> and <span>{{dirtyTask}}</span>. So, <span class="name">{{maleName}}</span> met with his life mentor <span>{{celebrity}}</span> who told him to learn how to <span>{{uselessSkill}}</span> with Thinkful. Thinkful didn't offer a course on <span>{{uselessSkill}}</span> so he studied programming instead. </p>
         <p class="passage">What a great decision! With his new skills, <span class="name">{{maleName}}</span> built a(n) <span>{{adjective}}</span> robot named <span>{{obnoxiousCelebrity}}</span> that not only loved <span>{{dirtyTask}}</span> but did it <span>{{hugeNumber}}</span> times faster. </p>
 
     </p>
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.5.7/angular-messages.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
