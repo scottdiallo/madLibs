@@ -31,65 +31,68 @@
 -->
 
 
-    <div class="tableContent" ng-controller="myCtrl">
+    <div class="tableContent">
         <h1>Provide The Following Words:</h1>
 
         <!--    or create a form with submit button once clicked all input will be filled and added to the passage below-->
 
+        <form name="madInput" ng-submit="submit()" novalidate>
+            <table class="wordsTable">
+                <tr>
+                    <td>Name
+                        <input type="text" autocapitalize="word" ng-model="data.name" ng-init="data.name='Scott '" />
+                    </td>
 
-        <table class="wordsTable">
-            <tr>
-                <td>Name
-                    <input type="text" autocapitalize="word" ng-model="data.name" ng-init="name='Scott '" />
-                </td>
+                    <td>Job Tile
+                        <input type="text" ng-model="data.jobTitle" ng-init="data.jobTitle='Developer'">
+                    </td>
+                    <td>Tedious Task
+                        <input type="text" ng-model="data.tediousTask" ng-init="data.tediousTask='sleeping'">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dirty Task
+                        <input type="text" ng-model="data.dirtyTask" ng-init="data.dirtyTask='eating'">
+                    </td>
+                    <td>Celebrity
+                        <input type="text" ng-model="data.celebrity" ng-init="data.celebrity='Steve Jobs'">
+                    </td>
+                    <td>Useless skill
+                        <input type="text" ng-model="data.uselessSkill" ng-init="data.uselessSkill='watch tv'">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Obnoxious celebrity
+                        <input type="text" ng-model="data.obnoxiousCelebrity" ng-init="data.obnoxiousCelebrity='Donald Trump'">
+                    </td>
+                    <td>Huge Number
+                        <input type="number" ng-model="data.hugeNumber" ng-init="data.hugeNumber=1000000000">
+                    </td>
+                    <td>Adjective
+                        <input type="text" ng-model="data.adjective" ng-init="data.adjective='giant'">
+                    </td>
+                </tr>
+            </table>
 
-                <td>Job Tile
-                    <input type="text" ng-model="data.jobTitle" ng-init="jobTitle='Developer'">
-                </td>
-                <td>Tedious Task
-                    <input type="text" ng-model="data.tediousTask" ng-init="tediousTask='sleeping'">
-                </td>
-            </tr>
-            <tr>
-                <td>Dirty Task
-                    <input type="text" ng-model="data.dirtyTask" ng-init="dirtyTask='eating'">
-                </td>
-                <td>Celebrity
-                    <input type="text" ng-model="data.celebrity" ng-init="celebrity='Steve Jobs'">
-                </td>
-                <td>Useless skill
-                    <input type="text" ng-model="data.uselessSkill" ng-init="uselessSkill='watch tv'">
-                </td>
-            </tr>
-            <tr>
-                <td>Obnoxious celebrity
-                    <input type="text" ng-model="data.obnoxiousCelebrity" ng-init="obnoxiousCelebrity='Donald Trump'">
-                </td>
-                <td>Huge Number
-                    <input type="number" ng-model="data.hugeNumber" ng-init="hugeNumber=1000000000">
-                </td>
-                <td>Adjective
-                    <input type="text" ng-model="data.adjective" ng-init="adjective='giant'">
-                </td>
-            </tr>
-        </table>
+            <button class="submit" type="submit">Submit</button>
 
-        <!--        <button class="submit" type="submit">Submit</button>-->
-
-
+        </form>
     </div>
     <hr>
 
 
-    <p class="gameForm">
-        <p class="passage"><span class="name">{{name}}</span> was a <span>{{jobTitle}}</span> who loved technology. Although he loved parts of his job, he absolutely hated <span>{{tediousTask}}</span> and <span>{{dirtyTask}}</span>. So, <span class="name">{{name}}</span> met with his life mentor <span>{{celebrity}}</span> who told him to learn how to <span>{{uselessSkill}}</span> with Thinkful. Thinkful didn't offer a course on <span>{{uselessSkill}}</span> so he studied programming instead. </p>
-        <p class="passage">What a great decision! With his new skills, <span class="name">{{name}}</span> built a(n) <span>{{adjective}}</span> robot named <span>{{obnoxiousCelebrity}}</span> that not only loved <span>{{dirtyTask}}</span> but did it <span>{{hugeNumber}}</span> times faster. </p>
+    <div class="gameForm">
+        <p class="passage"><span class="name">{{data.name}}</span> was a <span>{{data.jobTitle}}</span> who loved technology. Although he loved parts of his job, he absolutely hated <span>{{data.tediousTask}}</span> and <span>{{data.dirtyTask}}</span>. So, <span class="name">{{data.name}}</span> met with his life mentor <span>{{data.celebrity}}</span> who told him to learn how to <span>{{data.uselessSkill}}</span> with Thinkful. Thinkful didn't offer a course on <span>{{data.uselessSkill}}</span> so he studied programming instead. </p>
+        <p class="passage">What a great decision! With his new skills, <span class="name">{{data.name}}</span> built a(n) <span>{{data.adjective}}</span> robot named <span>{{data.obnoxiousCelebrity}}</span> that not only loved <span>{{data.dirtyTask}}</span> but did it <span>{{data.hugeNumber}}</span> times faster. </p>
 
-    </p>
+    </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.5.7/angular-messages.js"></script>
+
+    <script src="https://code.angularjs.org/1.5.5/angular.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.5.5/angular-animate.js"></script>
+
+    <script src='https://code.angularjs.org/1.5.5/angular-messages.min.js' type="text/javascript"></script>
     <script src="js/script.js"></script>
 </body>
 

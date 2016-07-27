@@ -1,0 +1,65 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "https://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE&amp;num=1&amp;sig=AOD64_2yImfMLS3XkCqO1iBsP1_dWDZ0fw&amp;ctype=21&amp;video_id=sbUtgWPBGjY&amp;client=ca-pub-6219811747049371&amp;adurl=http://www.youtube.com/user/IshaInnerEngineering%3Fv%3DsbUtgWPBGjY"; 
+google_ad.visible_url = "youtube.com/IshaInnerEngineering"; 
+google_ad.p_creative_view_url = "";
+google_ad.p_engaged_view_url = "";
+google_ad.p_videoplaytime_25_url = "";
+google_ad.p_videoplaytime_50_url = "";
+google_ad.p_videoplaytime_75_url = "";
+google_ad.p_videoplaytime_100_url = "";
+google_ad.view_count = 1292619;
+google_ad.duration = 514000;
+google_ad.display_name = "Inner Engineering";
+google_ad.line1 = "Do U know Power of Water?"; 
+google_ad.line2 = "Interesting Discussion between Yogi"; 
+google_ad.line3 = "Environmentalist Ed Begley Jr"; 
+google_ad.regionname = ""; 
+google_ad.media_template_data = [ 
+{ 
+"destinationPage" : "2", 
+"description2" : "Environmentalist Ed Begley Jr", 
+"description1" : "Interesting Discussion between Yogi", 
+"videoThumbnail" : "0", 
+"channelName" : "IshaInnerEngineering", 
+"headline" : "Do U know Power of Water?", 
+"videoId" : "sbUtgWPBGjY", 
+"imageUrl" : "http://i2.ytimg.com/vi/sbUtgWPBGjY/default.jpg" 
+} 
+]; 
+google_ad.engaged_view_url = "https://googleads.g.doubleclick.net/aclk?sa\x3dl\x26ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26num\x3d1\x26sig\x3dAOD64_2yImfMLS3XkCqO1iBsP1_dWDZ0fw\x26ctype\x3d18\x26video_id\x3dsbUtgWPBGjY\x26client\x3dca-pub-6219811747049371\x26adurl\x3dhttp://www.youtube.com/user/IshaInnerEngineering%3Fv%3DsbUtgWPBGjY"; 
+google_ad.conversion_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26sigh\x3d-5caSeKL1Eg"; 
+google_ad.view_url = ""; 
+google_ad.checked_events = ""; 
+google_ad.mute_gone = "It\x27s gone."; 
+google_ad.mute_question = "What was wrong with this ad?"; 
+google_ad.mute_undo = "Undo"; 
+google_ad.mute_hover_text = "Stop seeing this ad"; 
+google_ad.mute_interaction_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26sigh\x3d-5caSeKL1Eg\x26label\x3duser_feedback_menu_interaction\x26cbt\x3dVjLRpE2Z74YIjuq7250BENaijVYY1v3HKSIgeW91dHViZS5jb20vSXNoYUlubmVyRW5naW5lZXJpbmcyCAgFExjBjAEUOLa0hJ6WsMvasQFCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSABYGmDoAWiyitXzAXAB"; 
+google_ad.mute_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26sigh\x3d-5caSeKL1Eg\x26label\x3duser_feedback_menu_option\x26label_instance\x3d1\x26cbt\x3dVjLRpE2Z74YIjuq7250BENaijVYY1v3HKSIgeW91dHViZS5jb20vSXNoYUlubmVyRW5naW5lZXJpbmcyCAgFExjBjAEUOLa0hJ6WsMvasQFCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSABYGmDoAWiyitXzAXAB"; 
+google_ad.mute_undo_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26sigh\x3d-5caSeKL1Eg\x26label\x3duser_feedback_undo\x26label_instance\x3d1\x26cbt\x3dVjLRpE2Z74YIjuq7250BENaijVYY1v3HKSIgeW91dHViZS5jb20vSXNoYUlubmVyRW5naW5lZXJpbmcyCAgFExjBjAEUOLa0hJ6WsMvasQFCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSABYGmDoAWiyitXzAXAB"; 
+google_ad.mute_survey = {"Inappropriate" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26sigh\x3d-5caSeKL1Eg\x26label\x3dmute_survey_option\x26label_instance\x3d8\x26cbt\x3dVjLRpE2Z74YIjuq7250BENaijVYY1v3HKSIgeW91dHViZS5jb20vSXNoYUlubmVyRW5naW5lZXJpbmcyCAgFExjBjAEUOLa0hJ6WsMvasQFCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSABYGmDoAWiyitXzAXAB", 
+"Irrelevant" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26sigh\x3d-5caSeKL1Eg\x26label\x3dmute_survey_option\x26label_instance\x3d7\x26cbt\x3dVjLRpE2Z74YIjuq7250BENaijVYY1v3HKSIgeW91dHViZS5jb20vSXNoYUlubmVyRW5naW5lZXJpbmcyCAgFExjBjAEUOLa0hJ6WsMvasQFCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSABYGmDoAWiyitXzAXAB", 
+"Repetitive" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26sigh\x3d-5caSeKL1Eg\x26label\x3dmute_survey_option\x26label_instance\x3d2\x26cbt\x3dVjLRpE2Z74YIjuq7250BENaijVYY1v3HKSIgeW91dHViZS5jb20vSXNoYUlubmVyRW5naW5lZXJpbmcyCAgFExjBjAEUOLa0hJ6WsMvasQFCF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxSABYGmDoAWiyitXzAXAB" 
+}; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.youtube.com/video/A3CQQ_Ednd0%26gl%3DUS%26hl%3Den%26client%3Dca-pub-6219811747049371%26ai0%3DCnRALe3qMV5StM9apnATUg7FozaW48kSO6rvbnQHAjbcBEAEg4_uTA2DJ9viGyKOgGaABusmQ1wPIAQGoAwGqBIUBT9Aql7lJn_jC90eGRgJ6bx-RZUsAtZ5fthwUcU-FtpbfNINPZhHnFc8e5-_WY0qpO356NGqjmaV3zsUM5v7pmu5FSIQvsO8BjCkdCibmFcBUC-HYUei0Fij6_AlndxZXl9mp3Zmd3gsddcNgeB6_hKXeYymSKCL9qTdDe3CRqnm-CCstOaAGGsgGpqvBz50BgAeutu8oqAemvhvYBwE\x26usg\x3dAFQjCNHIrkYp7lBlvUiyRlbwTABdHTqh6Q";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}
